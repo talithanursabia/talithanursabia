@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.content-wrapper {
+    height: 100%;
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(255 255 255 / 50%);
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.img-content {
+    display: flex;
+    justify-content: center;
+}
+
+#img-hero {
+    margin: 50px;
+    margin-bottom: 5px !important;
+    margin-top: 15px !important;
+    border: 2px solid black;
+    border-radius: 100%;
+    width: 200px;
+    height: 350px
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.wrapper {
+    border-radius: 20px;
+    margin: 40px;
+    padding: 40px;
+    box-shadow: 5px 7px;
+}
+
+.wrapper:hover {
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+    scale: 1.02;
+}
+
+.content-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.desc-content {
+    text-align: justify;
+}
+
+#deskripsi {
+    background-color: rgb(255 0 255/50%);
+}
+
+#pendidikan {
+    background-color: rgba(255, 165, 0, 0.5);
+}
+
+#kerja {
+    background-color: rgba(220, 220, 230, 0.9);
+}
+
+#kepanitiaan {
+    background-color: rgba(255, 182, 193, 0.8);
+}
+
+#galeri {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+#contact {
+    background-color: rgba(169, 169, 169, 0.5);
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    aspect-ratio: 16 / 9;
+    background-color: #ccc;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+}
+
+.gallery-item:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+#contact-button {
+    text-align: center;
+    background-color: rgba(178, 225, 211, 1);
+    padding: 1em;
+    border-radius: 25px;
+}
+
+#contact-button:hover {
+    background-color: rgba(128, 193, 169, 1);
+}
+
+.contact-card-container {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.contact-card-item {
+    border-radius: 20px;
+}
+
+.contact-card-item:hover {
+    background-color: rgba(128, 193, 169, 1);
+}
+
+.contact-card-content {
+    padding: 1em;
+}
+
+.form-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.form {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em;
+    margin: 10px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+input {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
